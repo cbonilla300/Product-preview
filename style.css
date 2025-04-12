@@ -1,0 +1,84 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    /* display: flex; */
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    background-color: #f2ebe3;
+    
+}
+.container {
+    display: flex;
+    margin: 50px auto;
+    max-width: 550px;
+    /* max-height: 420px; */
+    border: 2px solid transparent;
+    border-radius: 10px;
+}
+img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+    border-bottom-right-radius: 0;
+    border-top-right-radius: 0;
+}
+.content {
+    background-color: hsl(0, 0%, 100%);
+    padding: 25px 20px 20px 20px;
+    width: 100%;
+    border-radius: 10px;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+    object-fit: cover;
+}
+h1 {
+    padding: 0px 60px 0px 0px;
+    margin-bottom: 10px;
+    line-height: 2rem;
+}
+.perfume, .description, .price {
+    margin-bottom: 20px;
+}
+.description {
+    color: hsl(228, 12%, 48%);
+    font-size: 15px;
+    line-height: 1.5rem;
+    padding-right: 25px;
+}
+.perfume {
+    color: hsl(228, 12%, 48%);
+    text-transform: uppercase;
+    letter-spacing: 5px;
+}
+
+button {
+    background-color: hsl(158, 36%, 37%);
+    padding: 12px 10px;
+    border: 2px solid transparent;
+    border-radius: 10px;
+    color: hsl(30, 38%, 92%);
+    width: 100%;
+    margin-bottom: 10px;
+}
+i {
+    margin-right: 10px;
+}
+
+.attribution {
+    margin: 30px 0px;
+}
+.less {
+    color: hsl(158, 36%, 37%);
+    font-weight: 800;
+    font-size: 2rem;
+    margin-right: 20px;
+}
+.more {
+    text-decoration: line-through hsl(228, 12%, 48%);
+    color: hsl(228, 12%, 48%);
+}
